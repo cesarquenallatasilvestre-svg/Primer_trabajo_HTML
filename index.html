@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Personal</h1> 
+        <h2>Quien soy</h2>
+        <p>
+            Hola, soy <strong>Cesar Quenallata Silvestre</strong> un estudainte de la carrera Ingenieria 
+            de Sistemas. Me gusta la tecnologia, la programacion,
+            redes y un poco de ciberseguridad.
+        </p> 
+        <h3>Mis intereses</h3>
+        <p>
+            Me gusta desarrollar aplicaciones moviles y desarrolllar
+            proyectos relacionados tecnologia.
+        </p> 
+
+        <!-- imagen personal--> 
+        <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAkllJjfUvDrZgKUkIw3YyAh2sgc3Tct3T4BC3IHaAnw&s"
+            alt="imagen representativa de mi persona"
+            width="200" height="150"    
+        >
+        <hr>
+    </header>
+
+
+    <!--enlaces-->
+    <section>
+        <h2>Mis enlaces</h2>
+
+        <!-- Enlace a GitHub -->
+        <p>
+            <a href="https://github.com/" target="_blank">
+                Mi Github
+            </a>
+        </p>
+
+        <!-- Enlace a GitHub -->
+        <p>
+            <a href="https://www.upea.edu.bo/" target="_blank">
+                Universidad Publica de El Alto (UPEA)
+            </a>
+        </p>
+
+        <!-- Enlace a GitHub -->
+        <p>
+            <a href="#contacto" target="_blank">
+                Ir a la seccion de contacto
+            </a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!--Video--->
+    <section>
+        <p>
+            <h2>Video</h2>
+            <video controls width="500"
+                src="C:\Users\CESAR\Desktop\tareas auxiliatura\mi_video.mp4"
+            >
+            Tu navegador no puede reproducir este video.   
+            </video>
+        </p>
+    </section>
+    
+    <hr>
+
+    <section>
+        <p>
+        <h2>Audio</h2> 
+        <audio controls
+               src="C:\Users\CESAR\Desktop\tareas auxiliatura\mi_audio.mp3"
+               type="audio/mpeg"
+            >
+
+            Tu navegador no puede reproducir este audio.
+        </audio>    
+        </p>
+    </section>
+    
+    <hr>
+
+    <!--Habilidades-->
+
+    <section>
+        
+        <h2>Mis habilidades</h2>
+
+        <ul>
+            <li>Programacion en Python</li>
+            <li>HTML</li>
+            <li>Bases de datos</li>
+            <li>Git y GitHub</li>
+            <li>CCS</li>
+            <li>Java Script</li>    
+        </ul>
+        
+    </section>
+
+    <hr>
+
+    <!--Metas-->
+
+    <section>
+        
+        <h2>Metas</h2>
+
+        <ol>
+            <li>Terminar mi carrera</li>
+            <li>Mejorar mis conocminetos en redes y ciberseguridad</li>
+            <li>Crear proyectos profesionales</li>
+            <li>Trabajar para el exterior</li>
+            <li>Tener una granja</li>    
+        </0l>
+        
+    </section>
+
+    <hr>
+    
+    <!--Mi proyecto-->
+    <section>
+        <h2>Mi proyecto</h2>
+
+        <p>
+            Uno de mis proyectos esta relaciones con el desarrollo de sistemas.
+        </p>
+
+        <img 
+            src="https://arqa.com/wp-content/uploads/2021/01/img_1785-530x398.jpg"
+            alt="Proyecto de desarrollo de software"
+            width="500"
+        >
+    </section>
+    
+    <hr>
+
+    <!--Tabla de materias-->
+    <section>
+        <h2>Materias que estudio</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Materia</th>
+                    <th>Semestre</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Ingenieria de Control</td>                   
+                    <td>6to</td>
+                </tr>
+
+                <tr>
+                    <th>2</th>
+                    <td>Administracion de Base de Datos</td>
+                    <td>6to</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Análisis y Diseño II</td>
+                    <td>6to</td>
+                </tr>
+
+                <tr>
+                    <th>4</th>
+                    <td>Ingenieria de redes I</td>
+                    <td>6to</td>
+                </tr>
+
+                <tr>
+                    <th>5</th>
+                    <td>Investigacion Operativa II</td>
+                    <td>6to</td>
+                </tr>
+
+                <tr>
+                    <th>6</th>
+                    <td>Tecnologias Emergentes I</td>
+                    <td>6to</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+    <!--Formulario-->
+    <section>
+
+        <!-- El enlace interno #contacto llega aquí -->
+        <h2 id="contacto">Contacto</h2>
+
+        <form>
+
+            <!-- 1. TEXT -->
+            <label for="nombre">Nombre:</label>
+            <input 
+                type="text" 
+                id="nombre" 
+                name="nombre"
+                placeholder="Escribe tu nombre"
+            >
+
+            <br><br>
+
+            <!-- 2. EMAIL -->
+            <label for="correo">Correo:</label>
+            <input 
+                type="email" 
+                id="correo" 
+                name="correo"
+                placeholder="ejemplo@gmail.com"
+            >
+
+            <br><br>
+
+            <!-- 3. TEL -->
+            <label for="telefono">Teléfono:</label>
+            <input 
+                type="tel" 
+                id="telefono" 
+                name="telefono"
+                placeholder="70000000"
+            >
+
+            <br><br>
+
+            <!-- 4. DATE -->
+            <label for="fecha">Fecha:</label>
+            <input 
+                type="date" 
+                id="fecha" 
+                name="fecha"
+            >
+
+            <br><br>
+
+            <!-- 5. RADIO -->
+            <p>¿Te interesa la tecnología?</p>
+
+            <input 
+                type="radio" 
+                id="si" 
+                name="tecnologia" 
+                value="si"
+            >
+            <label for="si">Sí</label>
+
+            <input 
+                type="radio" 
+                id="no" 
+                name="tecnologia" 
+                value="no"
+            >
+            <label for="no">No</label>
+
+            <br><br>
+
+            <!-- 6. CHECKBOX -->
+            <p>¿Qué temas te interesan?</p>
+
+            <input 
+                type="checkbox" 
+                id="programacion" 
+                name="intereses" 
+                value="programacion"
+            >
+            <label for="programacion">Programación</label>
+
+            <input 
+                type="checkbox" 
+                id="bases" 
+                name="intereses" 
+                value="bases"
+            >
+            <label for="bases">Bases de datos</label>
+
+            <input 
+                type="checkbox" 
+                id="ia" 
+                name="intereses" 
+                value="ia"
+            >
+            <label for="ia">Inteligencia Artificial</label>
+
+            <br><br>
+
+            <!-- 7. SELECT -->
+            <label for="carrera">Carrera:</label>
+
+            <select id="carrera" name="carrera">
+
+                <option value="sistemas">
+                    Ingeniería de Sistemas
+                </option>
+
+                <option value="informatica">
+                    Ingeniería Informática
+                </option>
+
+                <option value="software">
+                    Ingeniería de Software
+                </option>
+
+            </select>
+
+            <br><br>
+
+            <!-- 8. TEXTAREA -->
+            <label for="mensaje">Mensaje:</label>
+
+            <br>
+
+            <textarea 
+                id="mensaje" 
+                name="mensaje" 
+                rows="5" 
+                cols="40"
+                placeholder="Escribe tu mensaje aquí..."
+            ></textarea>
+
+            <br><br>
+
+            <!-- 9. BUTTON -->
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </section>
+
+    <!--Google Maps-->
+    <section>
+
+        <h2>Mi ubicación</h2>
+
+        <!--
+        Para obtener tu propio src de Google Maps:
+        1. Entra a Google Maps.
+        2. Busca el lugar que quieres mostrar.
+        3. Presiona "Compartir".
+        4. Selecciona "Insertar un mapa".
+        5. Copia el código HTML.
+        6. Busca el atributo src dentro del iframe.
+        7. Reemplaza el src de este iframe por tu propio src.
+        -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4387.593965570509!2d-68.22259094664658!3d-16.519426042821433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edfa8d350a625%3A0x5851be5b6c74cbde!2sGobierno%20Aut%C3%B3nomo%20Municipal%20de%20El%20Alto!5e0!3m2!1ses-419!2sbo!4v1788651948370!5m2!1ses-419!2sbo" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin">
+
+        </iframe>
+
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>
+            © 2026 Mi Portafolio Personal
+        </p>
+    </footer>
+    <hr>
+</body>
+</html>
